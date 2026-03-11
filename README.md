@@ -1,2 +1,11 @@
-# ruby-learning
-learning ruby for my SEEK FHIR Implementation
+# Ruby FHIR Playground
+
+Learning Ruby basics for FHIR interface development with SEEK.
+
+Topics:
+- Ruby basics
+- methods
+- loops
+- classes
+- JSON
+- HTTP requests
