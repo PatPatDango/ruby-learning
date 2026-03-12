@@ -31,5 +31,22 @@ medication = {
     side_effects: ["Nausea", "Dizziness"]
 }
 
+patient1 = {
+    name: "Igeli",
+    age: 25,
+    gender: "male"
+}
+1
+patient2 = {
+    name:   "Albertina", 
+    age:     23,
+    gender:  "female"
+}
 
-
+patients = []
+patients << patient1  # Hinzufügen eines Patienten zum Array
+patients << patient2
+puts patients[0][:name]
+puts patients[0][:gender]
+puts patients[1][:age] # Zugriff auf den Namen des ersten Patienten
+puts "##################################"
